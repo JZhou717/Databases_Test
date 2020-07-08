@@ -77,5 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
             c.moveToNext();
         }
+
+        c.close();
     }
 }
